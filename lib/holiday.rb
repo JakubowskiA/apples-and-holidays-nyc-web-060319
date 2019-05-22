@@ -63,7 +63,9 @@ holiday_hash.each do |season, holidays|
     puts "#{season.to_s.capitalize!}:"
     holidays.each do |holiday, supplies|
       if holiday.to_s.include?("_")
-        capitalized = holiday.to_s.split("_").each do
+        capitalized = holiday.to_s.split("_").each do |word|
+          word.capitalize!
+        end
       else
         aaaaaa
       end
