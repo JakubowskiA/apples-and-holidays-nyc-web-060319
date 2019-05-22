@@ -68,7 +68,7 @@ holiday_hash.each do |season, holidays|
         end
         puts " #{capitalized.join(" ")}: #{supplies.join(", ")}"
       else
-        puts " #{holiday.capitalize!}: #{supplies.join(", ")}"
+        puts " #{holiday.to_s.capitalize!}: #{supplies.join(", ")}"
       end
     end
   end
