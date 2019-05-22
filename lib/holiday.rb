@@ -72,7 +72,6 @@ holiday_hash.each do |season, holidays|
       end
     end
   end
-
 end
 
 def all_holidays_with_bbq(holiday_hash)
